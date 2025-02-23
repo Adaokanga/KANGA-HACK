@@ -62,3 +62,4 @@ elif opcao == "2":
     unir_arquivos()
 else:
     print("Opção inválida.")
+        
