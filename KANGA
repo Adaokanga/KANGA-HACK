@@ -1,0 +1,80 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+SCRIPT_DIR="$HOME/../opt"
+
+# Efeito matriz azul
+matriz() {
+    clear
+    for i in {1..30}; do
+        linha=""
+        for j in {1..40}; do
+            linha+=$((RANDOM % 2))
+        done
+        echo -e "\e[34m$linha\e[0m"
+        sleep 0.05
+    done
+}
+
+# ASCII hacker dançando
+hacker_ascii='
+          (\_/)
+         ( •_•)
+        / >⚡️/>  HACK TIME!
+        \___)__) 
+'
+
+digita_ascii() {
+    echo
+    for ((i=0; i<${#hacker_ascii}; i++)); do
+        echo -n "${hacker_ascii:$i:1}"
+        sleep 0.01
+    done
+    echo -e "\n"
+    sleep 1
+}
+
+# Título animado
+titulo_kanga() {
+    echo -e "\e[1;36m"
+    echo "██╗  ██╗ █████╗ ███╗   ██╗ ██████╗  █████╗ "
+    echo "██║ ██╔╝██╔══██╗████╗  ██║██╔════╝ ██╔══██╗"
+    echo "█████╔╝ ███████║██╔██╗ ██║██║  ███╗███████║"
+    echo "██╔═██╗ ██╔══██║██║╚██╗██║██║   ██║██╔══██║"
+    echo "██║  ██╗██║  ██║██║ ╚████║╚██████╔╝██║  ██║"
+    echo "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝"
+    echo -e "\e[0m"
+    sleep 1
+}
+
+# Execução
+matriz
+digita_ascii
+titulo_kanga
+
+while true; do
+    echo
+    echo -e "\e[1;34m===== MENU DE EXECUÇÃO - KANGA =====\e[0m"
+    echo "1. dnsfinder"
+    echo "2. divide_uni_arquivo"
+    echo "3. extractor_hosts_e_ips"
+    echo "4. ip_range_e_CIDR"
+    echo "5. proxy_finder"
+    echo "0. Sair"
+    echo
+    read -p "Opção: " opcao
+
+    case $opcao in
+        1) python3 "$SCRIPT_DIR/dnsfinder.py" ;;
+        2) python3 "$SCRIPT_DIR/divide_uni_arquivo.py" ;;
+        3) python3 "$SCRIPT_DIR/extractor_hosts_e_ips.py" ;;
+        4) python3 "$SCRIPT_DIR/ip_range_e_CIDR.py" ;;
+        5) python3 "$SCRIPT_DIR/proxy_finder.py" ;;
+        0) echo "Saindo do KANGA..."; break ;;
+        *) echo "Opção inválida!"; sleep 1 ;;
+    esac
+
+    echo
+    read -p "Pressione ENTER para voltar ao menu..."
+    clear
+    titulo_kanga
+done
