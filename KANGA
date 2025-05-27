@@ -54,12 +54,12 @@ titulo_kanga
 while true; do
     echo
     echo -e "\e[1;34m===== MENU DE EXECUÇÃO - KANGA =====\e[0m"
-    echo "1. dnsfinder"
-    echo "2. divide_uni_arquivo"
-    echo "3. extractor_hosts_e_ips"
-    echo "4. ip_range_e_CIDR"
-    echo "5. proxy_finder"
-    echo "0. Sair"
+    echo "1. DNS FINDER"
+    echo "2. DIVIDIR E UNIR ARQUIVOS"
+    echo "3. EXTRACTOR E ORGANIZADOR DE HOSTS E IPS"
+    echo "4. CRIADOR DE ARQUIVOS COM IP RANGE E CDR"
+    echo "5. SCANEAR PROXY"
+    echo "0. SAIR"
     echo
     read -p "Opção: " opcao
 
