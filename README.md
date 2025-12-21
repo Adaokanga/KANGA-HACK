@@ -4,25 +4,25 @@ Interface simples, rápida e direta, ideal para estudos, testes e automação de
 ⚡ Funcionalidades
 O KANGA HACK oferece as seguintes opções:
 
-DNS Finder
+1. DNS Finder
 → Localiza e resolve domínios e DNS.
 
-Dividir / Unir
+2. Dividir / Unir
 → Divide ou une listas e arquivos de texto.
 
-Extractor
+3. Extractor
 → Extrai dados específicos de arquivos ou listas.
 
-IP Range / CIDR
+4. IP Range / CIDR
 → Gera intervalos de IPs a partir de CIDR ou ranges.
 
-Scanear Proxy
+5. Scanear Proxy
 → Testa proxies e verifica disponibilidade.
 
-Delimitador
+6. Delimitador
 → Manipula textos usando delimitadores personalizados.
 
-Gerador Payload
+7. Gerador Payload
 → Criação de payloads para testes de conexão.
 
 
@@ -36,7 +36,7 @@ Gerador Payload
 🔽 Clone e instale com um único comando
 
 ```bash
-git clone https://github.com/Adaokanga/KANGA-HACK.git && cd KANGA-HACK/ && bash denny.sh
+git clone https://github.com/Adaokanga/KANGA-HACK.git && cd KANGA-HACK/ && bash denny.sh && cd && rm -rf KANGA-HACK/
 ```
 
 
