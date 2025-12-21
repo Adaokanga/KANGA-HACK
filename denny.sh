@@ -7,5 +7,3 @@ chmod +x $HOME/../usr/bin/KANGA
 mv $HOME/KANGA-HACK/KANGA-HACK $HOME/../opt/
 cd
 rm -rf KANGA-HACK
-cd 
-rm -rf KANGA-HACK
