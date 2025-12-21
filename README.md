@@ -22,16 +22,22 @@ Gerador Payload
 📦 Instalação
 🔽 Clone e instale com um único comando
 
+```bash
 git clone https://github.com/Adaokanga/KANGA-HACK.git && cd KANGA-HACK/ && bash denny.sh
+```
 
 
 ▶️ Como Executar
 Após a instalação, basta digitar no terminal:
 
+```bash
 KANGA
-
+```
 
 Isso abrirá o menu interativo da ferramenta.
+
+
+
 📱 Compatibilidade
 ✅ Termux (Android)
 ✅ Linux
@@ -50,7 +56,3 @@ Use com responsabilidade.
 👤 Autor
 Denny-a Gvo 👻
 GitHub: https://github.com/Adaokanga
-
-
-
-
