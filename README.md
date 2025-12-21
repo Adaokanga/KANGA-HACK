@@ -19,6 +19,12 @@ Gerador Payload
 → Criação de payloads para testes de conexão.
 
 
+
+![KANGA](assets/kanga-menu.png)
+
+
+
+
 📦 Instalação
 🔽 Clone e instale com um único comando
 
