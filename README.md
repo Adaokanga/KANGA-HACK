@@ -5,25 +5,32 @@ Interface simples, rápida e direta, ideal para estudos, testes e automação de
 O KANGA HACK oferece as seguintes opções:
 
 1. DNS Finder
-→ Localiza e resolve domínios e DNS.
+→ Localiza e resolve domínios e registros DNS.
 
-2. Dividir / Unir
-→ Divide ou une listas e arquivos de texto.
+3. Dividir / Unir
+→ Divide ou une listas e arquivos de texto automaticamente.
 
-3. Extractor
-→ Extrai dados específicos de arquivos ou listas.
+4. Extractor
+→ Extrai hosts, IPs ou dados específicos de arquivos e listas.
 
-4. IP Range / CIDR
-→ Gera intervalos de IPs a partir de CIDR ou ranges.
+5. IP Range / CIDR
+→ Gera intervalos de IPs a partir de CIDR ou ranges personalizados.
 
-5. Scanear Proxy
-→ Testa proxies e verifica disponibilidade.
+6. Scanear Proxy
+→ Testa proxies e verifica disponibilidade e resposta.
 
-6. Delimitador
+7. Delimitador
 → Manipula textos usando delimitadores personalizados.
 
-7. Gerador Payload
-→ Criação de payloads para testes de conexão.
+8. Gerador de Payload
+→ Criação de payloads para testes de conexão e tunelamento.
+
+9. BugScanX
+→ Integração direta com a ferramenta BugScanX (instalada via pip) para scans avançados.
+
+10. Host → Payload
+→ Converte listas de hosts diretamente em payloads prontos para uso.
+11. Desinstalar KANGA
 
 
 
@@ -36,7 +43,7 @@ O KANGA HACK oferece as seguintes opções:
 🔽 Clone e instale com um único comando
 
 ```bash
-git clone https://github.com/Adaokanga/KANGA-HACK.git && cd KANGA-HACK/ && bash denny.sh && cd && rm -rf KANGA-HACK/
+git clone https://github.com/Adaokanga/KANGA-HACK.git && cd KANGA-HACK/ && bash denny.sh && cd && rm -rf KANGA-HACK/ && pip install bugscan-x
 ```
 
 
